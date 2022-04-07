@@ -23,7 +23,7 @@ const validarForm = [
       return verificar;
     })*/
     .escape(),
-  body("descripcion", "ingresar campo descripcion")
+  body("descripcion", "ingresar sugerencia")
     .not()
     .isEmpty()
     .trim()
