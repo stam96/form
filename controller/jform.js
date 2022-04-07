@@ -11,7 +11,7 @@ const crearForm = async (req, res) => {
     const crear = await modelFormulario.create(body);
     emailer.sendMail(crear);
     console.log(crear);
-    res.json(crear);
+    res.json({ mensaje: "Formulario enviado correctamente", crear });
   } catch (error) {
     res.json(error);
   }
