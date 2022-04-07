@@ -30,7 +30,7 @@ const sendMail = async (newUser) => {
   const info = await transporter.sendMail({
     from: "svalarezo62@gmail.com", // sender address
     to: [`${newUser.email}`, "svalarezo62@gmail.com"], // list of receivers
-    subject: `${newUser.username}`, // Subject line
+    subject: `${newUser.name}`, // Subject line
     text: "Bienvenido", // plain text body
     html: `
     Gracias por su sugerencias`,

@@ -15,13 +15,13 @@ const validarForm = [
     .exists()
     .isEmail()
     .normalizeEmail()
-    .custom(async (email) => {
+    /*.custom(async (email) => {
       const verificar = await modelFormulario.findOne({ email });
       if (verificar) {
         throw new Error("Email existente");
       }
       return verificar;
-    })
+    })*/
     .escape(),
   body("descripcion", "ingresar campo descripcion")
     .not()
