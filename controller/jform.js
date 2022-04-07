@@ -1,5 +1,6 @@
 const { validationResult } = require("express-validator");
 const modelFormulario = require("../schema/formulario");
+const emailer = require("../libs/email");
 const crearForm = async (req, res) => {
   try {
     const errors = validationResult(req);
@@ -8,6 +9,7 @@ const crearForm = async (req, res) => {
     }
     const body = req.body;
     const crear = await modelFormulario.create(body);
+    emailer.sendMail(crear);
     console.log(crear);
     res.json(crear);
   } catch (error) {
