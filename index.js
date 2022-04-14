@@ -19,8 +19,8 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 
 // Middleware para Vue.js router modo history
-//const history = require("connect-history-api-fallback");
-//app.use(history());
+const history = require("connect-history-api-fallback");
+app.use(history());
 app.use(express.static(__dirname + "/public"));
 
 //rutas
