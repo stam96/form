@@ -146,7 +146,7 @@ const Q = {},
   J = u(
     '<div class="sm:w-8/12 mx-auto w-1/2 sm:p-8 md:w-7/12 lg:w-1/2 overflow-hidde"><img src="' +
       A +
-      '" class="block rounded-lg" alt=""></div><div class="flex flex-col items-center lg:items-start"><div class="w-3/4"><h1 class="font-bold text-3xl sm:text-5xl mb-3"><span class="text-sky">W</span>eb <span class="text-sky">D</span>esigner and Backend</h1><p class="text-2xl mb-5 font-semibold"><span class="text-sky">S</span>talin <span class="text-sky">V</span>alarezo</p></div><div><a href="https://drive.google.com/file/d/1mK_B61KEr41JRxzfaV9b_q-iGia_DbrH/view?usp=sharing" target="_blank"><button class="text-slatedos bg-skyd font-semibold hover:bg-slate hover:text-sky transition delay-300 duration-300 ease-in-out border-solid rounded-md hover:border-transparent text-lg py-3 px-4 sm:py-4 sm:px-5 sm:text-xl md:mb-6 sm:mb-6">Descargar Cv</button></a></div></div>',
+      '" class="block rounded-lg" alt=""></div><div class="flex flex-col items-center lg:items-start"><div class="w-3/4"><h1 class="font-bold text-3xl sm:text-5xl mb-3"><span class="text-sky">W</span>eb <span class="text-sky">D</span>esigner and Backend</h1><p class="text-2xl mb-5 font-semibold"><span class="text-sky">S</span>talin <span class="text-sky">V</span>alarezo</p></div><div><a href="https://drive.google.com/file/d/1Nqp8Bcr-lcRpzwIqXgGJ4mAPc0Hbczq4/view?usp=sharing" target="_blank"><button class="text-slatedos bg-skyd font-semibold hover:bg-slate hover:text-sky transition delay-300 duration-300 ease-in-out border-solid rounded-md hover:border-transparent text-lg py-3 px-4 sm:py-4 sm:px-5 sm:text-xl md:mb-6 sm:mb-6">Descargar Cv</button></a></div></div>',
     2
   ),
   K = [J];
